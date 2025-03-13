@@ -1,0 +1,27 @@
+<Block>
+  <blockName>Block Ins WhenPlayClicked</blockName>
+  <position>(205.55, -310.91, 0.00)</position>
+  <varManagerName></varManagerName>
+  <varName />
+  <sections>
+    <Section>
+      <childBlocks>
+        <Block>
+          <blockName>Block Ins BuildBase</blockName>
+          <position>(0.00, 10.00, 0.00)</position>
+          <varManagerName></varManagerName>
+          <varName />
+          <sections>
+            <Section>
+              <childBlocks />
+              <inputs />
+            </Section>
+          </sections>
+        </Block>
+      </childBlocks>
+      <inputs />
+    </Section>
+  </sections>
+</Block>
+#
+

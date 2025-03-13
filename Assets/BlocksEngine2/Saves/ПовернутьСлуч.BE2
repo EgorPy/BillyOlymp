@@ -1,0 +1,109 @@
+<Block>
+  <blockName>Block Op Equal</blockName>
+  <position>(230.63, -200.07, 0.00)</position>
+  <varManagerName></varManagerName>
+  <varName />
+  <sections>
+    <Section>
+      <childBlocks />
+      <inputs>
+        <Input>
+          <isOperation>true</isOperation>
+          <value />
+          <operation>
+            <Block>
+              <blockName>Block Op Variable</blockName>
+              <position>(-132.27, 25.00, 0.00)</position>
+              <varManagerName>MG_BlocksEngine2.Environment.BE2_VariablesManager</varManagerName>
+              <varName>A_pressed</varName>
+              <sections>
+                <Section>
+                  <childBlocks />
+                  <inputs>
+                    <Input>
+                      <isOperation>false</isOperation>
+                      <value>A_pressed</value>
+                    </Input>
+                  </inputs>
+                </Section>
+              </sections>
+            </Block>
+          </operation>
+        </Input>
+        <Input>
+          <isOperation>false</isOperation>
+          <value>0</value>
+        </Input>
+      </inputs>
+    </Section>
+  </sections>
+</Block>
+#
+<Block>
+  <blockName>Block Ins WhenPlayClicked (1)</blockName>
+  <position>(61.49, -925.04, 0.00)</position>
+  <varManagerName></varManagerName>
+  <varName />
+  <sections>
+    <Section>
+      <childBlocks>
+        <Block>
+          <blockName>Block Ins RepeatForever</blockName>
+          <position>(0.00, 10.00, 0.00)</position>
+          <varManagerName></varManagerName>
+          <varName />
+          <sections>
+            <Section>
+              <childBlocks>
+                <Block>
+                  <blockName>Block Ins RotateAxis</blockName>
+                  <position>(20.00, 10.00, 0.00)</position>
+                  <varManagerName></varManagerName>
+                  <varName />
+                  <sections>
+                    <Section>
+                      <childBlocks />
+                      <inputs>
+                        <Input>
+                          <isOperation>true</isOperation>
+                          <value />
+                          <operation>
+                            <Block>
+                              <blockName>Block Op Random</blockName>
+                              <position>(-186.70, 30.00, 0.00)</position>
+                              <varManagerName></varManagerName>
+                              <varName />
+                              <sections>
+                                <Section>
+                                  <childBlocks />
+                                  <inputs>
+                                    <Input>
+                                      <isOperation>false</isOperation>
+                                      <value>-360</value>
+                                    </Input>
+                                    <Input>
+                                      <isOperation>false</isOperation>
+                                      <value>360</value>
+                                    </Input>
+                                  </inputs>
+                                </Section>
+                              </sections>
+                            </Block>
+                          </operation>
+                        </Input>
+                      </inputs>
+                    </Section>
+                  </sections>
+                </Block>
+              </childBlocks>
+              <inputs />
+            </Section>
+          </sections>
+        </Block>
+      </childBlocks>
+      <inputs />
+    </Section>
+  </sections>
+</Block>
+#
+
