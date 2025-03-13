@@ -10,7 +10,8 @@
 - **Возрастной рейтинг**: 12+  
 - **Движок**: Unity  
 - **Использование сторонних ресурсов**:  
-  - **Библиотеки**: [Blocks Engine 2](https://assetstore.unity.com/packages/templates/systems/blocks-engine-2-201602)  
+  - [Blocks Engine 2](https://assetstore.unity.com/packages/templates/systems/blocks-engine-2-201602)
+  - [Low Poly Pack](https://assetstore.unity.com/packages/3d/props/low-poly-ultimate-pack-54733?srsltid=AfmBOoreFMxUzJrBd79-_gQfVpJ1trn-VbDjcPf3HDWtTXiKPbT1jBY7)
 
 ## Публикации
 - Ссылка на itch.io: https://ved3v.itch.io/billy
